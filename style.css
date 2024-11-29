@@ -1,7 +1,47 @@
-*{ background: red;}
-
 #h3{background: purple;}
 
 .wrapper_card p{background: rgb(7, 147, 59);}
 
 li {background: rgb(109, 255, 238) !important;}
+
+#h2{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.box1{
+    width:50px;
+    height:50px;
+    background:rgb(13, 133, 224);
+    }
+
+.box2{      
+    width:50px;
+    height:40px;
+    background:rgb(164, 13, 224);
+    }
+
+.box3{
+    width:80px;
+    height:80px;
+    background:rgb(231, 95, 243);
+    order:-1;
+} 
+
+    
+.conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.conten{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+}
