@@ -1,0 +1,53 @@
+body{
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  .container{
+      width: 90%;
+      margin: auto; /*define un espacio a los 4 lados que sea igual, es automatico*/  
+  }
+  /* Sección de abajo*/
+
+.wrapper-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wrapper-bottom-logo a {
+    text-decoration: none; /* Elimina las líneas debajo de los enlaces */
+}
+
+
+
+h5{
+    font-weight:400;
+    font-size:16px;
+}
+/*Sección de arriba */
+.wrapper-top{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: flex-start;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+
+.wrapper-top div {
+    margin-left: 20px; /* Espaciado opcional entre el logo y el contenido */
+}
+
+.highlighter{
+    color: grey;
+
+}
+
+.wrapper-top-contact p img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
